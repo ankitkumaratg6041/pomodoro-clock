@@ -56,14 +56,14 @@ button{
   background-color: hsl(120, 88%, 19%);
 }
 .increase{
-  background-color: hsl(240, 65%, 46%);
+  background-color: hsl(0, 0%, 100%);
   box-shadow: 2px 2px 5px hsl(308, 100%, 50%);
 }
 .increase:hover{
   background-color: hsl(240, 69%, 64%);
 }
 .decrease{
-  background-color: hsl(0, 100%, 50%);
+  background-color: hsl(0, 0%, 95%);
   box-shadow: 2px 2px 5px hsl(308, 100%, 50%);
 }
 .decrease:hover{
