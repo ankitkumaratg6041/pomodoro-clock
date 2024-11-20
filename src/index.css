@@ -55,6 +55,9 @@ button{
 .start{
   background-color: hsl(120, 88%, 19%);
 }
+.start:hover{
+  background-color: hsl(120, 70%, 33%);
+}
 .increase{
   background-color: hsl(0, 0%, 100%);
   box-shadow: 2px 2px 5px hsl(308, 100%, 50%);

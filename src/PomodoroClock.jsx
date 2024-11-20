@@ -79,13 +79,13 @@ function PomodoroClock(){
             startTimer();
         }
 
-        document.addEventListener("click", handleDocumentClick);
+        // document.addEventListener("click", handleDocumentClick);
 
         return () => {
-            document.removeEventListener("click", handleDocumentClick);
+            // document.removeEventListener("click", handleDocumentClick);
             clearInterval(intervalId);
         }
-    }, [isRunning])
+    }, [intervalId])
 
   return (
     <>
@@ -105,9 +105,9 @@ function PomodoroClock(){
             <span>{formatNum(second)}</span>
         </div>
 
-        {/* <div className="buttons">
+        <div className="buttons">
             <button className="start" onClick={startTimer}>Start</button>
-        </div> */}
+        </div>
         </div>
     </>
   );
