@@ -106,7 +106,7 @@ function PomodoroClock(){
         </div>
 
         <div className="buttons">
-            <button className="start" onClick={startTimer}>Start</button>
+            <button className="start play-button" onClick={startTimer}>▶︎</button>
         </div>
         </div>
     </>

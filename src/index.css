@@ -53,10 +53,11 @@ button{
   border: none;
 }
 .start{
-  background-color: hsl(120, 88%, 19%);
+  background-color: hsla(0, 0%, 6%, 0.836);
 }
 .start:hover{
-  background-color: hsl(120, 70%, 33%);
+  background-color: hsla(0, 0%, 2%, 0.836);
+  /* color: hsla(0, 0%, 79%, 0.418); */
 }
 .increase{
   background-color: hsl(0, 0%, 100%);
@@ -71,4 +72,12 @@ button{
 }
 .decrease:hover{
   background-color: hsl(0, 59%, 53%);
+}
+.play-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 5px 25px;
+  margin: 0px 0px 15px 0px;
+  /* border: 2px solid red; */
 }
